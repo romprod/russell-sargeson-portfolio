@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Russell Sargeson",
-    "title": "Head of Support",
+    "title": "Head of Support / Lead Engineer",
     "location": "British",
     "summary": "Microsoft Certified professional with vast industry experience in IT, networking, solution architecture, and infrastructure management with a keen focus on security.",
     "profileImage": "https://t4.ftcdn.net/jpg/04/31/64/75/360_F_431647519_usrbQ8Z983hTYe8zgA7t1XVc5fEtqcpa.jpg"
@@ -26,15 +26,15 @@
         "enabled": true,
         "title": "Technical Skills",
         "items": [
-          "Windows Server Hyper-V",
-          "System Center",
+          "Microsoft Hyper-V",
+          "Linux KVM + QEMU",
           "VMWare",
-          "Linux (Debian, Ubuntu)",
-          "Docker",
-          "Traefik",
-          "NginX",
-          "MQTT",
-          "NodeRed"
+          "Linux (Debian Alpine Ubuntu)",
+          "Docker Swarms",
+          "MariaDB/MySQL/MSSQL",
+          "nginx/Apache",
+          "HAProxy/nginx",
+          "Wireguard/IPSEC"
         ]
       }
     },
@@ -46,19 +46,13 @@
           "company": "Addooco IT LTD",
           "position": "Head of Support",
           "period": "01/2020 - Present",
-          "description": "Orchestrating and improving support services. Leading a team of twelve engineers, cultivating continuous improvement. Developing and implementing support strategy. Streamlining support processes."
+          "description": "Orchestrating and improving support services. Leading a team of engineers, cultivating continuous improvement. Developing and implementing support strategy. Streamlining support processes."
         },
         {
           "company": "Addooco IT LTD",
           "position": "Senior Engineer",
           "period": "04/2017 - 01/2020",
           "description": "Supporting Multi-Site and Multi Server hyper converged setups. Capacity planning, renewing, building and installing solutions for business projects. Training and tutoring engineers."
-        },
-        {
-          "company": "Addooco IT LTD",
-          "position": "Senior Engineer",
-          "period": "MM/YYYY - MM/YYYY",
-          "description": "Data Center Engineer. Manage server architecture and streamline data center processes to improve efficiency. Renewing and updating datacenter documentation. Leading upgrade projects and migrations"
         },
         {
           "company": "Sheffield Business Systems",
@@ -87,9 +81,32 @@
       ]
     },
     "projects": {
-      "enabled": false,
+      "enabled": true,
       "title": "Featured Projects",
-      "items": []
+      "items": [
+        {
+          "title": "Design and build multi tiered web hosting for Drupal",
+          "description": "I was the project lead for a major customer initiative involving the deployment of segregated application and database servers for a leading European car and van manufacturer. The solution was built on Debian Linux servers with fully isolated staging and production environments to ensure robust data security and compliance. Additionally, I implemented HAProxy to load-balance the web servers and manage TLS security certificates, providing a secure and highly available architecture for the customer’s applications.",
+          "tags": [
+            "Drupal",
+            "MariaDB",
+            "HAProxy",
+            "TLS Certificates"
+          ],
+          "previewUrl": "#",
+          "repoUrl": "https://github.com/username/project"
+        },
+        {
+          "title": "Pandemic Helpdesk ",
+          "description": "During the 2020 COVID-19 pandemic, I was serving as Head of Support. This period brought significant new responsibilities as we transitioned rapidly from an office based environment to fully remote working. Although each engineer already had the capability to work from home, it was my responsibility to ensure that our high support standards were maintained. I achieved this by coordinating the team effectively, adapting our processes, and ensuring we continued to meet and consistently exceed our SLAs throughout the transition.",
+          "tags": [
+            "Team leader",
+            "Remote working"
+          ],
+          "previewUrl": "#",
+          "repoUrl": "https://github.com/username/project"
+        }
+      ]
     },
     "education": {
       "enabled": false,
@@ -114,11 +131,11 @@
       "enabled": true,
       "title": "Contact",
       "email": "russ@sargeson.co.uk",
-      "phone": "07375854636",
+      "phone": "",
       "location": "British"
     },
     "social": {
-      "enabled": false,
+      "enabled": true,
       "items": []
     }
   },
@@ -152,7 +169,7 @@
     ]
   },
   "footer": {
-    "enabled": true,
+    "enabled": false,
     "copyright": "© 2025 Russell Sargeson. All rights reserved."
   }
 }
